@@ -60,6 +60,7 @@ curl -u $CUSTOMER_ID:$CUSTOMER_SECRET --location --request POST 'https://api.ago
 --data-raw '{
   "appid": "'"$APP"'",
   "cname": "'"$channel"'",
+  "time": 1440,
   "privileges": [
     "join_channel"
   ]
